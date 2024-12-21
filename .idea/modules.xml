@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/jvs_yc.iml" filepath="$PROJECT_DIR$/.idea/jvs_yc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../repairshop/.idea/repairshop.iml" filepath="$PROJECT_DIR$/../repairshop/.idea/repairshop.iml" />
-    </modules>
-  </component>
-</project>
