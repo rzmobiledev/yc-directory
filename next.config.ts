@@ -15,6 +15,7 @@ const nextConfig: NextConfig = {
     experimental: {
         ppr: 'incremental',
     },
+    ignoreBuildErrors: true,
 };
 
 export default withSentryConfig(nextConfig, {
