@@ -47,7 +47,7 @@ const StartupForm = () => {
             return  { ...prevState, error: "An unexpected error occurred", status: "ERROR" }
         }
     }
-    const [state, formAction, isPending] = useActionState(handleFormSubmit,
+    const [, formAction, isPending] = useActionState(handleFormSubmit,
         { error: '', status: "INITIAL"})
 
 

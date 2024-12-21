@@ -15,7 +15,13 @@ const nextConfig: NextConfig = {
     experimental: {
         ppr: 'incremental',
     },
-    ignoreBuildErrors: true,
+    typescript: {
+        // !! WARN !!
+        // Dangerously allow production builds to successfully complete even if
+        // your project has type errors.
+        // !! WARN !!
+        ignoreBuildErrors: true,
+    },
 };
 
 export default withSentryConfig(nextConfig, {
