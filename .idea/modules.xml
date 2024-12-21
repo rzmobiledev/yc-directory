@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/jvs_yc.iml" filepath="$PROJECT_DIR$/.idea/jvs_yc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../repairshop/.idea/repairshop.iml" filepath="$PROJECT_DIR$/../repairshop/.idea/repairshop.iml" />
     </modules>
   </component>
 </project>
